@@ -1,9 +1,9 @@
-import Home from "./pages/Home/Home"
+import MainLayout from "./layout/MainLayout"
 
 const App = () => {
   return (
     <>
-    <Home/>
+    <MainLayout/>
     </>
   )
 }
