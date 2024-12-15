@@ -1,21 +1,21 @@
-// import { Carousel } from "@material-tailwind/react"
-// import BannerImg from "./BannerImg"
+import { Carousel } from "@material-tailwind/react"
+import img1 from "../../../../assets/cover/img1.png"
+import img2 from "../../../../assets/cover/img2.png"
+import img3 from "../../../../assets/cover/img3.png"
+import BannerImg from "./BannerImg"
 
 const Banner = () => {
   return (
-{/* <Carousel className="h-96">
-  <BannerImg src={"https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"} alt={"image 1"}/>
-      <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
-    </Carousel>  */}
+    <Carousel
+     className="h-[400px] my-6 "
+     autoPlay
+     autoplayDelay={4000}
+     loop={true}
+    >
+      <BannerImg src={img1} alt={img1}/>
+      <BannerImg src={img2} alt={img2}/>
+      <BannerImg src={img3} alt={img3}/>
+    </Carousel>
   )
 }
 

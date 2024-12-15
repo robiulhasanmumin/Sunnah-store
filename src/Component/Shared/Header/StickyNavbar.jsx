@@ -94,8 +94,8 @@ export function StickyNavbar() {
   );
 
   return (
-    <div className=" max-h-[768px]  ">
-      <Navbar className="sticky top-0 z-10  max-w-full rounded-none px-0 py-2 lg:px-8 lg:py-4 shadow-none">
+    <div className="w-full sticky top-0 z-10 mx-auto bg-[#FBFFFF] shadow-sm ">
+      <Navbar className="rounded-none py-1 shadow-none">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -103,10 +103,10 @@ export function StickyNavbar() {
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
             <Link to={"/"}>
-            <div className="flex items-center gap-2">
-              <img src={logo} alt="logo" className="w-14 rounded-md" />
-              <span className="text-2xl text-[#00BF63]"> Sunnah Store</span>
-            </div>
+              <div className="flex items-center gap-2">
+                <img src={logo} alt="logo" className="w-14 rounded-md" />
+                <span className="text-2xl text-[#00BF63]"> Sunnah Store</span>
+              </div>
             </Link>
           </Typography>
           <div className="flex items-center gap-4">
