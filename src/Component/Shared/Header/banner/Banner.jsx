@@ -7,7 +7,7 @@ import BannerImg from "./BannerImg"
 const Banner = () => {
   return (
     <Carousel
-     className="h-[400px] my-6 "
+     className="h-[400px] "
      autoPlay
      autoplayDelay={4000}
      loop={true}
